@@ -1,0 +1,112 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
+
+
+
+/* selector de etiqueta header - section - article - nav
+header{
+    background:pink;
+}
+*/
+
+/* selector descendente 
+
+body header div nav ol li a{
+
+}*/
+
+/* selector de clase
+.link{
+    
+}
+*/
+/* selector de id
+#portafolio{
+
+} */
+
+/* Pagina para ver colores
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value */
+
+
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: normal;
+    /* font-style: italic */
+    letter-spacing: -.2px;
+    /* text-transform: uppercase; */
+    /* text-decoration: underline */
+    color: white
+}
+
+h1 strong{
+    color: #026fff
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+
+}
+/* selector descendente */
+.header a{
+    color:white;
+    text-decoration: none
+}
+.hero{
+    height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #1b2127
+}
+
+.project {
+    /* border-top: tamaño, tipo, estilo */
+    /* border-top: 10px solid red;
+    border-right: 10px solid yellow;
+    border-left: 10px solid black;
+    border-bottom: 10px solid green */
+
+    /* border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px */
+
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* border-top-left-radius: 50px */
+
+
+}
+
+.project-details{
+    width: 500px;
+    height: 200px
+}
+
+.project-imageContainer{
+    width: 500px;
+}
+
