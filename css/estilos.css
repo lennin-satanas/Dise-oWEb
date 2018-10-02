@@ -37,6 +37,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/color_value */
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 h1, 
@@ -56,7 +57,9 @@ h1{
     letter-spacing: -.2px;
     /* text-transform: uppercase; */
     /* text-decoration: underline */
-    color: white
+    color: white;
+    margin: 100px 150px 70px 30px
+
 }
 
 h1 strong{
@@ -81,7 +84,9 @@ h1 strong{
     background-position-x: right;
     background-color: #1b2127
 }
-
+.portfolio{
+    background: #fafafa;
+}
 .project {
     /* border-top: tamaño, tipo, estilo */
     /* border-top: 10px solid red;
@@ -97,6 +102,12 @@ h1 strong{
     border: 1px solid gray;
     border-radius: 10px;
     /* border-top-left-radius: 50px */
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+
+
 
 
 }
