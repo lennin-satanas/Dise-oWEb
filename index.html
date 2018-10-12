@@ -30,9 +30,10 @@
 
     <!-- Estilos en línea -->
     <!-- <header style="color:blue; background:brown"> -->
+    <!-- sección header -->
     <header class="header">
-
-            <figure class="logo">
+        <div class="container">
+             <figure class="logo">
                 <img src="images/logo.png" width="150" alt="Logo de http://leinidadesteban.com">
             </figure>
                 <nav class="menu">
@@ -49,24 +50,28 @@
 
                         </ol>
                 </nav>
-
-
+        </div>     
     </header>
+    <!-- fin del header -->
     <!--Seccion principal-->
     <section class="hero">
-        <h1>
-            Hola! soy <strong>Leonidas Esteban</strong> <br>
-            Desarrollador<strong> Javascript</strong> con<br>
-            pasión por la <strong>enseñanza</strong>
-        </h1>
-        <!-- <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal del sitio">  -->
+        <div class="container">
+            <h1>
+                Hola! soy <strong>Leonidas Esteban</strong> <br>
+                Desarrollador<strong> Javascript</strong> con<br>
+                pasión por la <strong>enseñanza</strong>
+            </h1>
+            <img class="hero-image"  src="images/hero.jpg" width="500" height="300" alt="Imagen principal del sitio"> 
+        </div>
+        
     </section>
     <!-- fin de la seccion principal -->
 
     <!--Seccion portafolio-->
     <section id="portafolio" class="portfolio">
-        <h2>Portafolio (proyecto destacados)</h2>
-        <article class="project">
+        <div class="container">
+            <h2>Portafolio (proyecto destacados)</h2>
+            <article class="project">
             <div class="project-details">
                 <h3 class="project-title">Platzi Vídeos</h3>
                 <h6 class="project-course">Javascript</h6>
@@ -79,20 +84,21 @@
                     aplicaciones multiplataforma
                 </p>
             </div>
-
-                <figure class="project-imageContainer">
-                    <img class="project-image"  src="images/platzi-video-react-native.png" width="500" alt="proyecto del curso react">
-                </figure>
-
+              <figure class="project-imageContainer">
+                <img class="project-image"  src="images/platzi-video-react-native.png" width="500" alt="proyecto del curso react">
+              </figure>
         </article>
+        </div>   
     </section>
     <!-- fin de la seccion portafolio -->
-
+    <div class="container">
+        <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    </div>
+    
     <!--Seccion eventos-->
-    <h2 class="event-list-title">Más sobre mi experiencia</h2>
     <section id="eventos" class="event-list">
-        
-        <article class="event">
+        <div class="container">
+            <article class="event">
          <figure class="event-imageContainer">
              <img class="event-image" src="images/platzi-conf.jpg" width="500" height="300" alt="">
         </figure>
@@ -148,34 +154,39 @@
                 <a class="event-url" href="https://www.youtube.com/watch?v=tJOu5ukveiQ&list=RDtJOu5ukveiQ&start_radio=1" target="_blank">ver platica</a>
         </div>
         </article>
+        </div>
     </section>
     <!-- fin de la seccion eventos -->
 
     <!-- seccion contactos -->
     <section id="contacto" class="contact">
-        <form action="" class="form-email">
+        <div class="container">
+            <form action="" class="form-email">
             <h3>¿Creamos algo juntos?</h3>
             <!-- <label for="email">Dejame tu email</label> -->
             <input type="text" name="" id="email" placeholder="Déjame tu email">
             <!-- <input type="button" value="Enviar"> -->
             <button type="submit">Enviar</button>
-        </form>
-        <div class="social">
-            <a href="https://twitter.com" class="social-link twitter"></a>
-            <a href="https://facebook.com" class="social-link facebook"></a>
-            <a href="https://github.com" class="social-link github"></a>
-            <a href="https://instagram.com" class="social-link instagram"></a>
-        </div>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com" class="social-link twitter"></a>
+                <a href="https://facebook.com" class="social-link facebook"></a>
+                <a href="https://github.com" class="social-link github"></a>
+                <a href="https://instagram.com" class="social-link instagram"></a>
+            </div>
+        </div>    
     </section>
     <!-- fin de la seccion contactos -->
     <footer class="footer">
-      <div>
-        <p>Curso de Desarrollo web online 2018<img src="images/platzi.png" width="80">
-        </p>
-      </div>
-      <div>
-        <p>Diseñado <\3 por <a href="">@uriel</a></p>
-      </div>
+        <div class="container">
+            <div>
+                <p>Curso de Desarrollo web online 2018<img src="images/platzi.png" width="80">
+                </p>
+            </div>
+            <div>
+                <p>Diseñado <\3 por <a href="">@uriel jose</a></p>
+            </div>
+        </div>       
     </footer>
 </body>
 </html>
